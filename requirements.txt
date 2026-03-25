@@ -3,7 +3,7 @@ uvicorn
 python-multipart
 pillow
 python-dotenv
-mediapipe
+mediapipe==0.10.9
 opencv-python
 openai
 sqlalchemy
