@@ -1,0 +1,5 @@
+.skinapp/
+__pycache__/
+.env
+uploads/
+skin_app.db
