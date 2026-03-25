@@ -21,6 +21,7 @@ def validate_file(file: UploadFile):
 
 
 async def save_file(file: UploadFile):
+    os.makedirs("uploads", exist_ok=True)
     ext = validate_file(file)
 
     contents = await file.read()
