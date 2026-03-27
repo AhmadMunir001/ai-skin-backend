@@ -17,8 +17,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-app = FastAPI(title="AI Skin Analyzer API")
-
 app.include_router(analyze.router, prefix="/api")
 
 app.include_router(history.router, prefix="/api")
