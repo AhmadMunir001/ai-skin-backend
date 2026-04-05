@@ -109,6 +109,10 @@ particularly Pakistani women living in hot, humid, and polluted climates (cities
 - Regions analyzed: {', '.join(regions) if regions else 'full face'}
 - Raw scores: {json.dumps(scores)}
 - Warnings: {warns}
+- Skin Tone (ITA): {skin_data.get('skin_tone', 'unknown')}
+- Redness Level: {skin_data.get('redness', 'medium')}  
+- Pore Size: {skin_data.get('pore_size', 'moderate')}
+- Skin Zone Type: {skin_data.get('skin_zone_type', 'unknown')}
 
 == INSTRUCTIONS ==
 
